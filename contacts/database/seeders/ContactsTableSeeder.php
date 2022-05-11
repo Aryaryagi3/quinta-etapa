@@ -13,6 +13,6 @@ class ContactsTableSeeder extends Seeder
      */
     public function run()
     {
-        \App\Models\Contact::factory(50)->create();
+        \App\Models\Contact::factory(200)->create();
     }
 }

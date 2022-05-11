@@ -45,7 +45,7 @@ class ContactsController extends Controller
         $contact->email = request('email');
         $contact->save();
 
-        return redirect('/');
+        return redirect('/contacts');
     }
 
     public function destroy($id)
